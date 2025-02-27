@@ -1,0 +1,89 @@
+*{
+    direction: ltr;
+}
+body {
+    font-family: Gisha, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+header {
+    background-color: #f8b400;
+    padding: 20px;
+    text-align: center;
+    color: cream;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: cream;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.popular-recipes .recipe-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.popular-recipes .recipe img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.card .coming-soon {
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    background-color: rgba(255, 165, 0, 0.8);
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    transform: rotate(45deg);
+    font-size: 14px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+a.recepie:link { 
+    text-decoration: none; 
+  } 
+  a.recepie:visited { 
+    text-decoration: none; 
+  } 
+  a.recepie:hover { 
+    text-decoration: none; 
+  } 
+  a.recepie:active { 
+    text-decoration: none; 
+  }
+

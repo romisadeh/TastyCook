@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Recipe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/story.css">
+</head>
+<body>
+    <header class="bg-warning text-white py-4">
+        <div class="container">
+                <h1 class="display-4 mb-0 text-center">TastyCook</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="recepies.html">Recipes</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="story.html">The story behind</a></li>
+                            <li class="nav-item"><a class="nav-link" href="addRecepie.html">Add a recepie</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="story">
+            <h2>Story Behind the Recipes</h2>
+            <div id="stories-container">
+                <div class="story-item" onclick="showPopup()">
+                    <img src="../Images/Apple-Pie.jpg" alt="Apple Pie">
+                    <h3>Apple Pie</h3>
+                    <h4>Preparation Tips:</h4>
+                    <ul>
+                        <li>Use fresh and juicy apples.</li>
+                        <li>Add a pinch of cinnamon to the sugar for the filling.</li>
+                        <li>Bake the pie until it's golden and fragrant.</li>
+                    </ul>
+                    <h4>Story of the Dish:</h4>
+                    <p>This apple pie reminds every child of the scent coming from grandma's kitchen. Grandma always said the secret is to use the freshest apples, and that's what makes the difference in taste.</p>
+                    <p>She would always serve it with a dollop of vanilla ice cream, saying it added the perfect touch of sweetness to each slice of pie.</p>
+                </div>
+                <div class="story-item" onclick="showPopup()">
+                    <img src="../Images/chicken.jfif" alt="Roast Chicken">
+                    <h3>Roast Chicken</h3>
+                    <h4>Preparation Tips:</h4>
+                    <ul>
+                        <li>Use a whole chicken, seasoned generously with your favorite herbs.</li>
+                        <li>Add vegetables like carrots and potatoes to the roasting pan.</li>
+                        <li>Roast the chicken slowly to ensure it stays juicy and tender.</li>
+                    </ul>
+                    <h4>Story of the Dish:</h4>
+                    <p>This roast chicken was a staple in our family dinners. Grandma would always prepare it for Sunday meals, filling the house with its enticing aroma.</p>
+                    <p>The secret, she said, was in the slow roasting and the careful seasoning, which made every bite burst with flavor.</p>
+                </div>
+                <a href="mushroomRecepie.html" ><div class="story-item">
+                    <img src="../Images/Stuffed-Mushrooms.jpg" alt="Stuffed Mushrooms">
+                    <h3>Stuffed Mushrooms</h3>
+                    <h4>Preparation Tips:</h4>
+                    <ul>
+                        <li>Choose large, fresh mushrooms for stuffing.</li>
+                        <li>Mix the filling with cheese, breadcrumbs, and fresh herbs.</li>
+                        <li>Bake until the mushrooms are tender and the top is golden.</li>
+                    </ul>
+                    <h4>Story of the Dish:</h4>
+                    <p>Stuffed mushrooms were always a favorite appetizer at our family gatherings. Grandma's special recipe included a secret blend of herbs that made them uniquely delicious.</p>
+                    <p>She always made sure to make extra, knowing they would be the first to go at every party.</p>
+                </div></a>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2024 TastyCook. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/script_recepies.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,42 @@
+/* Recipe Page Enhancements */
+main h1 {
+    font-size: 2.5rem;
+    color: #f8b400;
+    text-align: center;
+}
+
+main img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.ingredients ul, .instructions ol {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.instructions .list-group-item {
+    background-color: #f9f9f9;
+}
+
+.btn-warning {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.video-title {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
+.video{
+    margin: auto;
+}
